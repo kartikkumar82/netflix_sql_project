@@ -194,7 +194,8 @@ LIMIT 5;
 ### 11. List All Movies that are Documentaries
 
 ```sql
-SELECT * 
+SELECT
+    * 
 FROM netflix
 WHERE listed_in LIKE '%Documentaries';
 ```
